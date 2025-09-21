@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #2bb6a3;
+  --color-primary-hover: #2fbca9;
+  --bg-section: #f0f2f4;
+
+  --title: #0b2545;
+  --subtitle: #495057;
+  --text: #6c757d;
+
+  /*------- Fonts --------*/
+  --font-main: "Poppins", sans-serif;
+  --font-alt: "Inter", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container-custom {
+  @apply mx-auto px-4 sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl ;
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, rgba(43,182,163,0.2), rgba(11,37,69,0.2));
+}
+body {
+  font-family: var(--font-alt);
+  color: var(--title);
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-2 rounded-lg bg-[var(--color-primary)] hover:bg-[var(--color-primary-hover)] hover:transition-colors hover:duration-200 cursor-pointer;
+  }
+  .input-form {
+    @apply px-4 py-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-[var(--color-primary)]/90 focus:outline-none focus:border-transparent;
+  }
+}
+@layer utilities {
+  .font-main {
+    font-family: var(--font-main);
+  }
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(-10px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(10px) rotate(-5deg);
+  }
+}
+
+.animate-floating {
+  animation: floating 4s ease-in-out infinite;
+}

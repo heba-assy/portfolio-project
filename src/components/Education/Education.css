@@ -1,0 +1,7 @@
+.bg-education-gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(43, 182, 163, 0.1),
+    rgba(11, 37, 69, 0.1)
+  );
+}
