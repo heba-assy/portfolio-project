@@ -101,7 +101,7 @@ export default function Education() {
             <h3 className="font-bold text-2xl font-main mb-8 text-center">
               Additional Certifications
             </h3>
-            <div data-aos="fade-up" className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-sm mx-auto md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
+            <div data-aos="fade-up" className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
               {additionalData.map((cart, index) => (
                 <AdditionalCart
                   key={index}

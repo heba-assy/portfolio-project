@@ -45,7 +45,7 @@ export default function ProjectCart({
 
           <p className="text-[var(--text)]">{description}</p>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap gap-2">
             {tags.map((tag, index) => (
               <span
                 key={index}

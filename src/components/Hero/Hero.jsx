@@ -5,8 +5,6 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { motion } from "framer-motion";
-import FloatingCircle from "../others/FloatingCircle/FloatingCircle";
 import {
   faGithub,
   faLinkedin,
