@@ -24,7 +24,7 @@ export default function FeaturedProjects() {
       links: 
         {
           githubLink: "https://github.com/heba-assy/e-commerce-app",
-          demoLink: "https://heba-assy.github.io/",
+          demoLink: "https://heba-assy.github.io/e-commerce-app/",
         },
     },
     {
