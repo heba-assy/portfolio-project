@@ -49,8 +49,8 @@ export default function Experiences() {
   ];
   return (
     <>
-      <section id="experiences" data-aos="fade-up" className="py-24 text-center">
-        <div className="container-custom">
+      <section id="experiences" data-aos="fade-up" className="py-24 text-center ">
+        <div className="container">
           <SectionContent title={title} parag={parag} />
 
           <div className="max-w-4xl mx-auto">

@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <>
       <section id="footer" className="bg-[var(--title)] text-white py-12">
-        <div className="container-custom">
+        <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-3 mb-8">
             {/*------ About ------- */}
             <div className="md:col-span-2 w-full mb-5 md:mb-0">

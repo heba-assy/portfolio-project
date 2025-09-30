@@ -16,10 +16,10 @@ export default function Hero() {
     <>
       <section
         data-aos="fade-up"
-        className="bg-[var(--bg-section)] overflow-hidden"
+        className="bg-[var(--bg-section)] overflow-hidden h-screen flex items-center justify-center"
         id="hero"
       >
-        <div className="container-custom py-14 lg:py-22">
+        <div className="container py-14 lg:py-22">
           <div className="grid lg:grid-cols-2">
             <div className="me space-y-7 text-center lg:text-left ">
               <div className="bg-[#DFF0F0] text-sm font-medium rounded-full text-[var(--color-primary)] py-2 px-4 inline-block mb-4 space-x-3">
@@ -63,10 +63,34 @@ export default function Hero() {
               </div>
 
               <div className="socials text-gray-500/50 *:hover:text-[var(--color-primary)] *:transition-colors *:duration-200 cursor-pointer text-2xl space-x-4 ">
-                <a href="https://github.com/heba-assy/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="" /></a>
-                <a href="https://www.linkedin.com/in/heba--assy/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="" /></a>
-                <a href="https://wa.me/201096432452" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWhatsapp} className="" /></a>
-                <a href="https://heba.assy.dev@outlook.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} className="" /></a>
+                <a
+                  href="https://github.com/heba-assy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faGithub} className="" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/heba--assy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} className="" />
+                </a>
+                <a
+                  href="https://wa.me/201096432452"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faWhatsapp} className="" />
+                </a>
+                <a
+                  href="https://heba.assy.dev@outlook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faEnvelope} className="" />
+                </a>
               </div>
             </div>
 
@@ -108,7 +132,9 @@ export default function Hero() {
           </div>
 
           <div className="text-center mt-20 text-2xl text-gray-500/50 *:hover:text-[var(--color-primary)] cursor-pointer animate-bounce">
-            <FontAwesomeIcon icon={faChevronDown} />
+            <a href="#about">
+              <FontAwesomeIcon icon={faChevronDown} />
+            </a>
           </div>
         </div>
       </section>

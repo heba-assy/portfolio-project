@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <>
       <div className="sticky top-0 z-50 bg-white/90 backdrop-blur-md transition-all duration-300 border-b border-gray-200 py-3 custom-heading">
-        <div className="container-custom">
+        <div className="container">
           <div className="flex items-center justify-between">
             {/*----- Logo --------- */}
             <div className="flex items-center gap-2">

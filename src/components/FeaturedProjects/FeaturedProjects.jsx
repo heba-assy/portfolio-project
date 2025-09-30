@@ -24,7 +24,7 @@ export default function FeaturedProjects() {
       links: 
         {
           githubLink: "https://github.com/heba-assy/e-commerce-app",
-          demoLink: "https://github.com/heba-assy/e-commerce-app",
+          demoLink: "https://heba-assy.github.io/",
         },
     },
     {
@@ -50,7 +50,7 @@ export default function FeaturedProjects() {
         data-aos="fade-up"
         className="py-24 bg-[var(--bg-section)]"
       >
-        <div className="container-custom">
+        <div className="container">
           <SectionContent title={title} parag={parag} />
           <div
             data-aos="fade-up"

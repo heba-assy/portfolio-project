@@ -116,9 +116,9 @@ export default function Skills() {
       <section
         id="skills"
         data-aos="fade-up"
-        className="py-24 bg-[var(--bg-section)]"
+        className="py-24 bg-[var(--bg-section)] "
       >
-        <div className="container-custom">
+        <div className="container">
           <SectionContent title={title} parag={parag} />
           {/*----- Technical Skills ------------ */}
           <h3 className="font-main font-semibold text-2xl mb-8 text-center">

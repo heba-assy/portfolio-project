@@ -66,8 +66,8 @@ export default function Contact() {
     "Ready to bring your ideas to life? Let's discuss your project and create something amazing together.";
   return (
     <>
-      <section id="contact" data-aos="fade-up" className="bg-gray-100 py-24">
-        <div className="container-custom">
+      <section id="contact" data-aos="fade-up" className="bg-gray-100 py-24 ">
+        <div className="container">
           <SectionContent title={title} parag={parag} />
 
           <div className="grid lg:grid-cols-2 gap-16">

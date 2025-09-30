@@ -74,8 +74,8 @@ export default function Education() {
   ];
   return (
     <>
-      <section id="education" data-aos="fade-up" className="py-24">
-        <div className="container-custom">
+      <section id="education" data-aos="fade-up" className="py-24 ">
+        <div className="container">
           <SectionContent title={title} parag={parag} />
 
           <div
