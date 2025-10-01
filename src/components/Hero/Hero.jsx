@@ -45,7 +45,7 @@ export default function Hero() {
 
               <div className="Download space-x-2">
                 <a
-                  href="/files/Front_End_Developer.pdf"
+                  href="./files/Front_End_Developer.pdf"
                   download="Front_End_Developer.pdf"
                 >
                   <button className="btn text-white transform transition-transform ease-in-out duration-500 hover:scale-105 py-3 px-6">
