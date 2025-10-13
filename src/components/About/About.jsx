@@ -27,7 +27,7 @@ export default function About() {
   };
   return (
     <>
-      <section id="about" data-aos="fade-up" className="py-24 h-screen flex items-center justify-center overflow-hidden">
+      <section id="about" data-aos="fade-up" className="py-24 flex items-center justify-center">
         <div className="container">
           <div className="max-w-4xl m-auto">
             <SectionContent title={mainTitle} parag={mainParag}/>
