@@ -16,7 +16,7 @@ export default function Hero() {
     <>
       <section
         data-aos="fade-up"
-        className="bg-[var(--bg-section)] overflow-hidden h-screen flex items-center justify-center"
+        className="bg-[var(--bg-section)] overflow-hidden min-gith-screen flex items-center justify-center"
         id="hero"
       >
         <div className="container py-14 lg:py-22">
