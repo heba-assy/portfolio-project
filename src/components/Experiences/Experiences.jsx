@@ -1,7 +1,12 @@
 import SectionContent from "../others/SectionContent/SectionContent";
 import ExperienceCart from "../others/ExperienceCart/ExperienceCart";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChalkboardUser, faCube, faGears, faUsers } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChalkboardUser,
+  faCube,
+  faGears,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Experiences() {
   const title = "Professional Experience";
@@ -12,7 +17,7 @@ export default function Experiences() {
     {
       icon: <FontAwesomeIcon icon={faChalkboardUser} />,
       jobTitle: "Programming Instructor",
-      company: "iSchool (Part-time) • 2024",
+      company: "iSchool (Part-time) • 2024 - Present",
       desc: [
         "Delivered programming fundamentals (Code.org, JavaScript, Web basics) to Grade 4 students.",
         "Translated complex technical concepts into simple, engaging lessons.",
@@ -22,19 +27,21 @@ export default function Experiences() {
     {
       icon: <FontAwesomeIcon icon={faCube} />,
       jobTitle: "Freelance 3D Artist",
-      company: "Independent • 2023 - 2024",
+      company: "Independent • 2023 - Present",
       desc: [
-        "Designed and marketed 3D models & digital assets online.",
-        "Specialized in product visualization and simple architectural renders.",
+        "Designing and marketing 3D models and digital assets online.",
+        "Specializing in product visualization and simple architectural renders.",
+        "Interested in creating stylized models and assets suitable for games.",
       ],
     },
     {
-      icon: <FontAwesomeIcon icon={faGears} />,
-      jobTitle: "Operations Assistant",
-      company: "Farasha Clothing Business – 2023",
+      icon: <FontAwesomeIcon icon={faGlobe} />,
+      jobTitle: "Freelance Front-End Developer",
+      company: "Independent • 2024 - Present",
       desc: [
-        "Handled logistics (order tracking, Excel reporting, shipment coordination).",
-        "Managed product inventory and supported marketing with flyers & media prep.",
+        "Developing responsive websites using modern front-end technologies.",
+        "Building landing pages and e-commerce websites for different clients.",
+        "Focusing on clean UI, performance, and user-friendly design.",
       ],
     },
     {
@@ -49,7 +56,11 @@ export default function Experiences() {
   ];
   return (
     <>
-      <section id="experiences" data-aos="fade-up" className="py-24 text-center ">
+      <section
+        id="experiences"
+        data-aos="fade-up"
+        className="py-24 text-center "
+      >
         <div className="container">
           <SectionContent title={title} parag={parag} />
 

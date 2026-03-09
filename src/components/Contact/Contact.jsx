@@ -15,6 +15,7 @@ export default function Contact() {
   const nameRegex = /^[A-Za-z\s]+$/;
 
   function handleSubmitting(values) {
+    const toastId = toast.loading("Sending message...");
     emailjs
       .send(
         "service_3vhdygo",
@@ -28,9 +29,11 @@ export default function Contact() {
         "hAzhSwHhlBEk3izpY"
       )
       .then(() => {
+        toast.dismiss(toastId);
         toast.success("Message sent successfully!");
       })
       .catch(() => {
+        toast.dismiss(toastId);
         toast.error("Failed to send message!");
       });
   }
